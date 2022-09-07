@@ -1,0 +1,111 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+
+}
+
+
+.menu-bar{
+
+background-color:transparent;
+height: 80px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 5%;
+
+}
+.logo{
+
+    color: #fff;
+    font-size: 30px;
+}
+.logo span{
+    color: rgb(207, 104, 7);
+}
+.menu-bar ul{
+
+    list-style: none;
+    display: flex;
+}
+.menu-bar ul li{
+
+padding: 10px 30px;
+position: relative;
+
+}
+.menu-bar ul li a{
+
+color: white;
+text-decoration: none;
+font-size: 20px;
+transition: all 0.5s;
+
+
+}
+.menu-bar ul li a:hover{
+color: chartreuse;
+
+
+    
+}
+
+
+
+
+
+
+body{
+
+    background-image: url('pexels-riccardo-bertolo-4245826.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.well{
+    position: absolute;
+top: 35%;
+left: 10%;
+font-size: 60px;
+color: darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.Unity{
+color: #fff;
+position: absolute;
+top: 45%;
+left: 20%;
+padding: 10px;
+font-size: 80px;
+}
+.Unity span{
+
+
+    color: rgb(207, 104, 7);
+}
+h3{
+position: absolute;
+top: 60%;
+left: 25%;
+border:1px #fff solid;
+border-radius: 10px;
+color: #fff;
+padding: 10px;
+font-size: 25px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: italic;
+
+
+}
+
+
+
+
+
+

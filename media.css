@@ -1,0 +1,97 @@
+@media screen  and (max-width : 600px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        
+        }    
+
+
+        .menu-bar{
+
+            background-color:transparent;
+            height: 50px;
+            width: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 5%;
+            
+            }
+
+            .menu-bar ul li{
+
+                padding: 10px 15px ;
+                position: relative;
+                
+                }
+
+                .logo{
+
+                    color: #fff;
+                    font-size: 10px;
+                }
+
+
+                body{
+
+                    background-image: url('pexels-riccardo-bertolo-4245826.jpg');
+                    
+                background-repeat: repeat-x;
+                
+                }
+
+                .menu-bar ul li a{
+
+                    color: white;
+                    text-decoration: none;
+                    font-size: 10px;
+                    transition: all 0.5s;
+                    
+                    
+                    }
+
+
+
+                    .well{
+                        position: absolute;
+                    top: 15%;
+                    left: 5%;
+                    font-size: 20px;
+                    color: darkred;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-style: italic;
+                    }
+
+
+
+
+                    .Unity{
+                        color: #fff;
+                        position: absolute;
+                        top: 20%;
+                        left: 20%;
+                        padding: 10px;
+                        font-size: 30px;
+                        }
+
+
+
+                        h3{
+                            position: absolute;
+                            top: 30%;
+                            left: 15%;
+                            border:1px #fff solid;
+                            border-radius: 10px;
+                            color: #fff;
+                            padding: 5px;
+                            font-size: 10px;
+                            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                            font-style: italic;
+                            
+                            
+                        }                            
+
+
+}    

@@ -1,0 +1,80 @@
+.area{
+position: absolute;
+top: 20%;
+left: 35%;
+background-color: rgba(130, 150, 124, 0.459);
+padding: 20px;
+border: 1px solid gray;
+width: 400px;
+height: 500px;
+
+}
+input[type="text"],
+input[type="email"],
+input[type="number"]{
+width: 100%;
+font-size: 20px;
+border: none;
+border-radius: 5px;
+padding: 5px;
+}
+.fill{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+
+
+
+
+}
+.textarea{
+resize: none;
+width: 402px;
+height: 100px;
+font-style: italic;
+font-size: 20px;
+
+}
+
+
+.Send{
+background-color: orangered;
+border: 1px solid orange;
+border-radius: 10px;
+width: 70px;
+height: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+color: #fff;
+transition: all 0.5s;
+}
+
+.Send:hover{
+color:#fff;
+border: 1px solid orange;
+border-radius: 10px;
+width: 70px;
+height: 30px;
+background-color: rgb(9, 115, 122);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+
+}
+body{
+    background-image: url("pexels-riccardo-bertolo-4245826.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+        
+    }
+.sending{
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #fff;
+position: absolute;
+top: 5%;
+left: 43%;
+
+
+}
+

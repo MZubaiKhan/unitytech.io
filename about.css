@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.myimg{
+position: absolute;
+top: 10%;
+left: 10%;
+
+
+
+}
+.about{
+
+    position: absolute;
+    top: 10%;
+left: 40%;
+}
+body{
+    background-color:black
+}
+.text{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+.textabout{
+   color:  rgba(226, 72, 0, 0.863);
+    padding: 5px;
+    text-align: justify;
+    margin: 0;
+}
+h1{
+border: 1px solid #fff;
+color: rgb(133, 0, 82);
+padding: 0;
+margin: 20px;
+border-radius: 10px;
+width: 30%;
+text-align: center;
+background-color: chartreuse;
+transition: all 0.3s;
+
+}
+h1:hover{
+
+color: chartreuse; 
+background-color: rgb(133, 0, 82);
+font-style: italic
+}
